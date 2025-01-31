@@ -1190,7 +1190,7 @@ footer {
 }
 
 // 画像の基本スタイル
-.scroll-image {
+%scroll-base {
     opacity: 0;
     will-change: transform, opacity;
     transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1207,4 +1207,13 @@ footer {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+// スクロールアニメーションを適用する要素
+main #about .contents .map img,
+main #spot .box_1 img,
+main #spot .box_2 img,
+main #spot .box_3 img,
+main #spot .box_4 img {
+    @extend %scroll-base;
 }

@@ -12,21 +12,24 @@
         <h3 class="sec-title">ABOUT</h3>
         <div class="contents">
             <div class="text">
-                <p class="bold">小豆島は、瀬戸内海の東側、四国と本州の間に位置する自然豊かな島。</p>
+                <p class="bold">
+                    <span class="bold-line">小豆島は、瀬戸内海の東側、四国と</span>
+                    <span class="bold-line">本州の間に位置する自然豊かな島。</span>
+                </p>
                 <p>
                     高松から約20km、岡山から約35kmの距離にあり、アクセスしやすいのも魅力です。
                     周囲には大小さまざまな島々が点在し、オリーブ畑や美しい海岸線が広がる風景が特徴。
                     穏やかな気候とともに、癒しのひとときを過ごすことができます。</p>
             </div>
             <div class="map">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/img/map.png'); ?>">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/img/map.png'); ?>" class="scroll-image scroll-from-right">
             </div>
         </div>
     </section>
     <section id="spot" class="wrapper">
         <h3 class="sec-title">SPOT</h3>
         <div class="box_1">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/エンジェルロード.jpg'); ?>" class="angel_road_img">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/エンジェルロード.jpg'); ?>" class="angel_road_img scroll-image scroll-from-left">
             <div class="description">
                 <p class="description-title">エンジェルロード</p>
                 <p>エンジェルロードは、干潮時に現れる砂の道で、2つの小島をつなぎます。
@@ -44,10 +47,10 @@
                     季節ごとに色とりどりの花が咲き、訪れる人々を楽しませています</p>
                 <a href="<?php echo esc_url(get_permalink( 48)); ?>" class="detail-btn">詳細を見る</a>
             </div>
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/olive_park.jpg'); ?>" class="olive_park_img">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/olive_park.jpg'); ?>" class="olive_park_img scroll-image scroll-from-right">
         </div>
         <div class="box_3">
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/tomioka.jpg'); ?>" class="tomioka_shrine_img">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/tomioka.jpg'); ?>" class="tomioka_shrine_img scroll-image scroll-from-left">
             <div class="description">
                 <p class="description-title">富岡八幡神社</p>
                 <p>富岡八幡神社は、小豆島の守り神として地元の人々に親しまれています。
@@ -67,7 +70,7 @@
                     山々に囲まれたこの場所は、ハイキングや散策にも最適です</p>
                 <a href="<?php echo esc_url(get_permalink( 53)); ?>" class="detail-btn">詳細を見る</a>
             </div>
-            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/寒霞渓.jpg'); ?>" class="kankakei_img">
+            <img src="<?php echo esc_url(get_template_directory_uri() . '/img/寒霞渓.jpg'); ?>" class="kankakei_img scroll-image scroll-from-right">
         </div>
     </section>
     <section id="gourmet" class="wrapper">

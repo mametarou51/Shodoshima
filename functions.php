@@ -33,7 +33,7 @@ function add_styles()
 
     wp_enqueue_style(
         'main_style',
-        get_template_directory_uri() . '/css/main.css',
+        get_template_directory_uri() . '/css/style.css',
         array('reset_style', 'google-fonts_style', 'slick_style', 'slick-theme_style'),
         '1.0'
     );
@@ -63,7 +63,7 @@ function add_scripts()
 
     wp_enqueue_script(
         'main_script',
-        get_template_directory_uri() . '/main.js',
+        get_template_directory_uri() . '/js/main.js',
         array('jquery_script', 'slick_script'),
         '1.0',
         true

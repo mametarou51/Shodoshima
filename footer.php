@@ -17,7 +17,7 @@
                 <li><a href="">手延べそうめん</a></li>
             </ul>
         </div>
-        <p class="copyright">copyright@2024</p>
+        <p class="copyright">Shimatoki@2024</p>
     </footer>
     <? wp_footer(); ?>
 </body>

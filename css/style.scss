@@ -123,7 +123,9 @@ header {
         text-align: center;
         padding: 128px 16px 0px 16px;
         transition: all .5s ease-in;
-        background-color: #d3d3d3;
+        background: rgba(211, 211, 211, 0.8);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
 
         ul {
             display: inline-block;
@@ -131,8 +133,8 @@ header {
             li {
                 font-size: 48px;
                 margin-bottom: 32px;
-                // border-top: 1px solid #000;
                 border-bottom: 1px solid #000;
+                text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
             }
         }
 
@@ -149,7 +151,9 @@ header {
         text-align: center;
         padding: 128px 16px 0px 16px;
         transition: all .5s ease-in;
-        background-color: #d3d3d3;
+        background: rgba(211, 211, 211, 0.8);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
 
         ul {
             display: inline-block;
@@ -157,8 +161,8 @@ header {
             li {
                 font-size: 48px;
                 margin-bottom: 32px;
-                // border-top: 1px solid #000;
                 border-bottom: 1px solid #000;
+                text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
             }
         }
 
